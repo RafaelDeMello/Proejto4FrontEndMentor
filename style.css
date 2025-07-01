@@ -2,7 +2,7 @@
    font-family: "Outfit", sans-serif; */
 
 body {
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(330, 100%, 98%);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,9 +12,9 @@ span{
 }
 div.div-principal {
     margin-top: 100px;
+    margin-bottom: 100px;
     background-color: white;
     padding: 35px;
-    height: auto;
     width: 600px;
     border-radius: 12px;
 }
@@ -40,17 +40,17 @@ div.txtt {
     font-size: 15px;
     color: hsl(24, 5%, 18%);
 }
-div.listas{
+div.preparation{
     padding: 20px;
     font-family: "Outfit", sans-serif;
     color: hsl(30, 10%, 34%);
     background-color: hsl(330, 100%, 98%);
 }
-div.t-lista{
+div.t-preparation{
     color: hsl(332, 51%, 32%);
 
 }
-div.l-listas{
+div.l-preparation{
     color: hsl(332, 51%, 32%);
     list-style: disc;
     font-size: 16px;
@@ -59,4 +59,30 @@ div.l-listas{
 p.p-list{
     color: hsl(30, 10%, 34%);
     margin-left: 15px;
+}
+div.ingredients{
+    border-bottom: 1px solid hsl(332, 51%, 32%);
+
+}
+div.t-ingredients{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+h2.ingredients{
+    font-weight: 10;
+}
+div.l-ingredients{
+    font-family: "Outfit", sans-serif;
+    color:  hsl(14, 45%, 36%);
+    padding-bottom: 20px;
+}
+div.instructions{
+    border-bottom: 1px solid hsl(332, 51%, 32%);
+}
+div.nutrition{
+
+}
+div.t-nutrition{
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
 }
