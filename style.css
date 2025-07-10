@@ -139,9 +139,18 @@ div.table2-4 {
 }
 
 @media(max-width: 500px) {
+    body{
+        background-color: white;
+    }
+    img{
+       max-width: 100%;
+    }
     div.div-principal {
+        margin-top: 0%;
         max-width: 100%;
         margin-right: 10px;
+        height: 2200px;
+        margin-bottom: 0%;
     }
     div.titulo{
         padding: 12px;
